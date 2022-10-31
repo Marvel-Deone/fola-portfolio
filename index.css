@@ -298,14 +298,14 @@ header .navbar ul li a:hover{
     cursor: pointer;
 }
 
-.portfolio .box-container .box img{
+.portfolio .box-container .box a img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: all .3s linear;
 }
 
-.portfolio .box-container .box:hover img{
+.portfolio .box-container .box:hover a img{
     transform: scale(1.2);
 }
 
